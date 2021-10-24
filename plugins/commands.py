@@ -1,4 +1,4 @@
-#credits - @pro_editor_tg @Joel_TG
+#credits - @Paulwalker_tg
 import os
 import time
 import random
@@ -12,32 +12,29 @@ from pyrogram.errors import UserNotParticipant
 from Database import Database
 logger = logging.getLogger(__name__)
 
-#photo code kanged from @codes4ya Channel !
-#Add atleast 10+ Telegraph Links below 👇
+#Edit Photo Code 👇
+#
 
 LOG_CHANNEL = BROADCAST_CHANNEL
 
 db = Database(DB_URL, SESSION)
 
 PHOTO = [
-    "https://telegra.ph/file/daa0e86574b573c68cd7d.jpg",
+    "https://telegra.ph/file/2ebbd10c905d0e031f4dc.jpg",
 
 ]
 
 @Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
-async def broadcast(bot, message):
- if (message.reply_to_message):
-   ms = await message.reply_text("Geting All ids from database ...........")
-   ids = getid()
-   tot = len(ids)
-   await ms.edit(f"Starting Broadcast .... \n Sending Message To {tot} Users")
-   for id in ids:
-     try:
-     	await message.reply_to_message.copy(id)
-     except:
-     	pass
-
-
+async def start(bot, message):
+   chat_id = message.from_user.id
+   if not await db.is_user_exist(chat_id):
+   data = await bot.get_me()
+   BOT_USERNAME = data.username
+   await db.add_user(chat_id)
+   await bot.send_message(
+       LOG_CHANNEL,
+       f"#NEWUSER: \n\nNew User [{message.from_user.first_name}](tg://user?id={message.from_user.id}) started @{BOT_USERNAME} !!",
+        )
 @Client.on_message(filters.command("start"))
 async def start(bot, cmd):
     usr_cmdall1 = cmd.text
