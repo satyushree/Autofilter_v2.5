@@ -3,11 +3,11 @@ Repo Forked From Alpha IMBD Bot
 An Advanced And Powerful Autofilter Bot Customised Repo By lalu-lulu
 # <img src="https://telegra.ph/file/2ebbd10c905d0e031f4dc.jpg">
 ## Contributions
-Paulwalker_tg , please provide others name 
+`Paulwalker_TG<a herf="https://t.me/Paulwalker_tg"</a>
 ## Added Features
 * Imdb posters for autofilter.
-*Double filter button.
-*Start message with pic
+* Double filter button.
+* Start message with pic
 * Custom captions for your files.
 * Index command to index all the files in a given channel (No USER_SESSION Required).
 * Ability to Index Public Channels without being admin.
