@@ -164,6 +164,18 @@ async def channel_info(bot, message):
 
     text += f'\n\n**Total:** {len(CHANNELS)}'
 
+
+@Client.on_message(filters.private & filters.command("broadcast"))
+async def broadcast_handler_open(_, m):
+    if m.from_user.id not in ADMIN_ID:
+        await m.delete()
+        return
+    if m.reply_to_message is None:
+        await m.delete()
+    else:
+        await broadcast(m, db)
+
+
     if len(text) < 4096:
         await message.reply(text)
     else:
