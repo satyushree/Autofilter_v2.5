@@ -6,6 +6,7 @@ import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from info import START_MSG, CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION
+from plugin.Broadcast import broadcast
 from utils import Media, get_file_details, get_size
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
