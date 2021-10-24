@@ -9,6 +9,7 @@ from info import START_MSG, CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION
 from plugins.Broadcast import broadcast
 from utils import Media, get_file_details, get_size
 from pyrogram.errors import UserNotParticipant
+from Database import Database
 logger = logging.getLogger(__name__)
 
 #photo code kanged from @codes4ya Channel !
