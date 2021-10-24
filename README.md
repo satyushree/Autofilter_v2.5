@@ -20,7 +20,7 @@ An Advanced And Powerful Autofilter Bot Customised Repo By <a herf="https://t.me
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lallu-lallus/ALPHA_IMDB_BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=1https://github.com/Vampire421/Autofilterv2.5)
 ### Hard Way
 
 ```bash
