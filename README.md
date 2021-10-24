@@ -1,6 +1,7 @@
 # AutoFilter Bot V2.5 
 Repo Forked From Alpha IMBD Bot
 An Advanced And Powerful Autofilter Bot Customised Repo By lalu-lulu
+# <img src="https://telegra.ph/file/2ebbd10c905d0e031f4dc.jpg">
 ## Contributions
 Paulwalker_tg , please provide others name 
 ## Added Features
