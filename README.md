@@ -1,9 +1,7 @@
-# ALPHA_IMDB_BOT
-Very Sempil Bot Auto Filter bot
-##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+Alpha-Auto-Filter-Bot!;created+by+Alpha+Admin+Lallu+Lallus!;A+simple+autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+all+futures!)
-</p>
-<img src="https://telegra.ph/file/080538bf9bad4e0d208ca.jpg" alt="JPG" width="300" height="250"/>
-</p>
+# Repo By ALPHA_IMBD_BOT
+An Advanced And Powerful Autofilter Bot Customised Repo By lalu-lulu
+## Contributions
+Paulwalker_tg , please provide others name 
 ## Added Features
 * Imdb posters for autofilter.
 *Double filter button.
@@ -82,13 +80,13 @@ logger - Get log file
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* Original [Repo](https://github.com/Lallu-lallus/ALPHA_IMDB_BOT)
+* Original [Repo](https://github.com/Vampire421/Autofilterv2.5)
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/Pro_editor_tg)
+Contact Me On [Telegram](https://t.me/Housefull_links)
 
-[Update Channel](https://t.me/tg_bots_updates)
+[Update Channel](https://t.me/housefull_links)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
