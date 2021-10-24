@@ -3,7 +3,7 @@ Repo Forked From Alpha IMBD Bot
 An Advanced And Powerful Autofilter Bot Customised Repo By lalu-lulu
 # <img src="https://telegra.ph/file/2ebbd10c905d0e031f4dc.jpg">
 ## Contributions
-`Paulwalker_TG<a herf="https://t.me/Paulwalker_tg"</a>
+`Paulwalker_TG <a>herf="https://t.me/Paulwalker_tg"</a>
 ## Added Features
 * Imdb posters for autofilter.
 * Double filter button.
