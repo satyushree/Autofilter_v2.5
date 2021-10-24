@@ -17,6 +17,8 @@ logger = logging.getLogger(__name__)
 
 LOG_CHANNEL = BROADCAST_CHANNEL
 
+db = Database(DB_URL, SESSION)
+
 PHOTO = [
     "https://telegra.ph/file/daa0e86574b573c68cd7d.jpg",
 
