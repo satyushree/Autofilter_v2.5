@@ -1,4 +1,5 @@
-# Repo By ALPHA_IMBD_BOT
+# AutoFilter Bot V2.5 
+Repo Forked From Alpha IMBD Bot
 An Advanced And Powerful Autofilter Bot Customised Repo By lalu-lulu
 ## Contributions
 Paulwalker_tg , please provide others name 
@@ -13,7 +14,8 @@ Paulwalker_tg , please provide others name
 * Once files saved in Database , exists until you manually deletes. (No Worry if post gets deleted from source channel.)
 * Added Force subscribe (Only channel subscribes can use the bot)
 * Ability to restrict groups(AUTH_GROUPS)
-
+* Spelling mode added 
+* Broadcast Added To The Repo 
 ## Installation
 
 ### Easy Way
