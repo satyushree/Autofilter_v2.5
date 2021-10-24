@@ -144,7 +144,7 @@ async def group(client, message):
                     ]
                 )
         else:
-            LuciferMoringstar=await client.send_message(
+            Alpha=await client.send_message(
             chat_id = message.chat.id,
             text=f"""
 👋Hey {message.from_user.mention}
