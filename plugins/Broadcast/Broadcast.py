@@ -16,6 +16,8 @@ from pyrogram.errors import (
     UserIsBlocked,
 )
 
+from config import Config
+
 from Config import BROADCAST_AS_COPY
 
 broadcast_ids = {}
