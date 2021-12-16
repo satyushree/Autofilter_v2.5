@@ -18,8 +18,6 @@ from pyrogram.errors import (
 
 from config import Config
 
-from Config import BROADCAST_AS_COPY
-
 broadcast_ids = {}
 
 BROADCAST_AS_COPY = BROADCAST_AS_COPY
