@@ -24,17 +24,17 @@ PHOTO = [
 
 ]
 
-@Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
-async def start(bot, message):
-   chat_id = message.from_user.id
-   if not await db.is_user_exist(chat_id):
-   data = await bot.get_me()
-   BOT_USERNAME = data.username
-   await db.add_user(chat_id)
-   await bot.send_message(
-       LOG_CHANNEL,
-       f"#NEWUSER: \n\nNew User [{message.from_user.first_name}](tg://user?id={message.from_user.id}) started @{BOT_USERNAME} !!",
-        )
+#@Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
+#async def start(bot, message):
+#   chat_id = message.from_user.id
+#   if not await db.is_user_exist(chat_id):
+#   data = await bot.get_me()
+#   BOT_USERNAME = data.username
+#   await db.add_user(chat_id)
+#   await bot.send_message(
+#       LOG_CHANNEL,
+#       f"#NEWUSER: \n\nNew User [{message.from_user.first_name}](tg://user?id={message.from_user.id}) started @{BOT_USERNAME} !!",
+#        )
 @Client.on_message(filters.command("start"))
 async def start(bot, cmd):
     usr_cmdall1 = cmd.text
