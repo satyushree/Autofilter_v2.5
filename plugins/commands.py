@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 #Edit Photo Code 👇
 #
 
-LOG_CHANNEL = BROADCAST_CHANNEL
+#LOG_CHANNEL = BROADCAST_CHANNEL
 
 db = Database(DB_URL, SESSION)
 
